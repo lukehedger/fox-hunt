@@ -28,7 +28,7 @@ export class Hunt extends Component {
         <h1>Hunt</h1>
         <p>Intro...</p>
 
-        { clues.map( (c, i) => (
+        { clues.map( (c, i) => i > 0 && clues[i-1].correct || i === 0 ? (
           <div key={ i }>
             <h3>{ c.clue }</h3>
             <span>Correct? { `${c.correct}` }</span>
@@ -39,7 +39,7 @@ export class Hunt extends Component {
               onChange={ ({ target }) => onSetInput(i, target.value) }
             />
           </div>
-        ))}
+        ) : null )}
       </div>
     )
   }
