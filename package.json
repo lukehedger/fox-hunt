@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack.config.development.js",
     "build": "webpack --config config/webpack.config.production.js --progress",
-    "deploy": "npm run build && surge public/ foxyhunt"
+    "deploy": "npm run build && surge public/ foxyhunt.surge.sh"
   },
   "repository": {
     "type": "git",
