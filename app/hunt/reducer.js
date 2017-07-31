@@ -7,52 +7,52 @@ import { Clue } from './models'
 export const initialState = Immutable.fromJS({
   clues: [
     Clue({
-      clue: '1',
+      clue: 'This is clue number 1',
       answer: '1',
       input: '',
     }),
     Clue({
-      clue: '2',
+      clue: 'This is clue number 2',
       answer: '2',
       input: '',
     }),
     Clue({
-      clue: '3',
+      clue: 'This is clue number 3',
       answer: '3',
       input: '',
     }),
     Clue({
-      clue: '4',
+      clue: 'This is clue number 4',
       answer: '4',
       input: '',
     }),
     Clue({
-      clue: '5',
+      clue: 'This is clue number 5',
       answer: '5',
       input: '',
     }),
     Clue({
-      clue: '6',
+      clue: 'This is clue number 6',
       answer: '6',
       input: '',
     }),
     Clue({
-      clue: '7',
+      clue: 'This is clue number 7',
       answer: '7',
       input: '',
     }),
     Clue({
-      clue: '8',
+      clue: 'This is clue number 8',
       answer: '8',
       input: '',
     }),
     Clue({
-      clue: '9',
+      clue: 'This is clue number 9',
       answer: '9',
       input: '',
     }),
     Clue({
-      clue: '10',
+      clue: 'This is clue number 10',
       answer: '10',
       input: '',
     }),

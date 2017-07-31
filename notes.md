@@ -13,7 +13,8 @@ Clues:
 9.
 10.
 
-Design: patchwork icons background, from NP
-Fox icon? - https://thenounproject.com/search/?q=fox
-Colours - https://dribbble.com/search?q=foxy
-Font? - https://fonts.google.com/
+Local storage
+Grid Layout: Header / Main / Footer
+Input primitive and style
+View primitive - other? Spacer
+Clue style
