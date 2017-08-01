@@ -12,5 +12,3 @@ Clues:
 8.
 9.
 10.
-
-Clue style
