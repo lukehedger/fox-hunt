@@ -5,7 +5,7 @@ import { name } from './constants'
 // STATIC
 // ------
 const getAll = state => state.get(name)
-const getClues = createSelector( getAll, state => state.get('clues') )
+const getClues = createSelector( getAll, state => state.get('clues').toJS() )
 
 // ------
 // COMPUTED
@@ -16,7 +16,7 @@ const getCluesChecked = createSelector( [ getClues ], (clues) => {
     return [
       ...arr,
       {
-        ...clue.toObject(),
+        ...clue,
         correct: clue.answer === clue.input,
       },
     ]

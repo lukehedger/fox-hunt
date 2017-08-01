@@ -13,7 +13,6 @@ Clues:
 9.
 10.
 
-Local storage
 Grid Layout: Header / Main / Footer
 Input primitive and style
 View primitive - other? Spacer
