@@ -13,7 +13,6 @@ Clues:
 9.
 10.
 
-Grid Layout: Header / Main / Footer
 Input primitive and style
 View primitive - other? Spacer
 Clue style

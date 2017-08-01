@@ -8,8 +8,8 @@ import styled from 'styled-components'
  * @return {Function} React component
  */
 const StyledGridCell = styled.div`
-  grid-column: ${({ column }) => column};
-  grid-row: ${({ row }) => row};
+  grid-row-start: ${({ gridRowStart }) => gridRowStart || Grid.defaultProps.gridRowStart};
+  grid-row-end: ${({ gridRowEnd }) => gridRowEnd || Grid.defaultProps.gridRowEnd};
 `
 
 /**
@@ -28,8 +28,8 @@ const GridCell = ({ children, ...props }) =>
  * @desc Primitive's default properties
  */
 GridCell.defaultProps = {
-  column: 1,
-  row: 1,
+  gridRowStart: 'initial',
+  gridRowEnd: 'initial',
 }
 
 /**
@@ -38,10 +38,10 @@ GridCell.defaultProps = {
  * @desc Primitive's prop type definitions
  */
 GridCell.propTypes = {
-  /** Grid column */
-  column: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  /** Grid row */
-  row: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  /** Grid row start */
+  gridRowStart: PropTypes.number,
+  /** Grid row end */
+  gridRowEnd: PropTypes.number,
 }
 
 export default GridCell

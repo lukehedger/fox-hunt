@@ -11,7 +11,7 @@ const StyledGrid = styled.div`
   display: grid;
   grid-auto-rows: ${({ gridAutoRows }) => gridAutoRows || Grid.defaultProps.gridAutoRows};
   grid-gap: ${({ gridGap }) => gridGap || Grid.defaultProps.gridGap};
-  grid-template-columns: ${({ gridTemplateColumns }) => gridTemplateColumns || Grid.defaultProps.gridTemplateColumns};
+  grid-template-rows: ${({ gridTemplateRows }) => gridTemplateRows || Grid.defaultProps.gridTemplateRows};
 `
 
 /**
@@ -32,7 +32,7 @@ const Grid = ({ children, ...props }) =>
 Grid.defaultProps = {
   gridAutoRows: 'minmax(100px, auto)',
   gridGap: '16px',
-  gridTemplateColumns: 'repeat(3, 1fr)',
+  gridTemplateRows: '1fr auto',
 }
 
 /**
@@ -46,7 +46,7 @@ Grid.propTypes = {
   /** Grid gap */
   gridGap: PropTypes.string,
   /** Grid template columns */
-  gridTemplateColumns: PropTypes.string,
+  gridTemplateRows: PropTypes.string,
 }
 
 export default Grid
