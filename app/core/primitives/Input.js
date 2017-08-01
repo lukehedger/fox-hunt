@@ -10,7 +10,6 @@ import { colour, typography } from 'core/style'
  * @return {Function} React component
  */
 const StyledInput = styled.input`
-  ${''/* borderColor: c.correct ? "forestgreen" : "red", outline: "none"*/}
   width: ${({ width }) => width || Input.defaultProps.width};
   margin: ${({ margin }) => margin || Input.defaultProps.margin};
   padding: ${({ padding }) => padding || Input.defaultProps.padding};
