@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 
-import { Box, Grid, GridCell, Text } from 'core/primitives'
+import { Box, Grid, GridCell, Input, Text } from 'core/primitives'
 import * as actions from './actions'
 import selectors from './selectors'
 
@@ -41,12 +41,14 @@ export class Hunt extends Component {
                 { i + 1 }
               </Text>
               <Text textAlign="center" style={{ margin: "8px 0" }}>{ c.clue }</Text>
-              <input
+              <Input
                 value={ c.input }
-                type='text'
-                placeholder='Answer goes here!'
+                type="text"
+                placeholder="Answer goes here!"
+                border="1px solid"
+                borderColor={ c.correct ? "mint" : "pink" }
+                width="90%"
                 onChange={ ({ target }) => onSetInput(i, target.value) }
-                style={{ width: "90%", margin: "auto", padding: "8px", display: "block", border: '1px solid', borderColor: c.correct ? "forestgreen" : "red", outline: "none" }}
               />
             </div>
           ) : null )}

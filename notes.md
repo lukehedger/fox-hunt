@@ -13,6 +13,4 @@ Clues:
 9.
 10.
 
-Input primitive and style
-View primitive - other? Spacer
 Clue style
