@@ -33,7 +33,17 @@ export class Hunt extends Component {
 
           <Text fontSize="28px" textAlign="center" textTransform="uppercase">Foxy Hunt</Text>
 
-          <Text textAlign="center" style={{ padding: "16px" }}>Intro...</Text>
+          <Text lineHeight="1.2" textAlign="center" style={{ padding: "16px" }}>
+            Foxy ladies of Leicester the challenge is set!
+            <br/>
+            Correctly solve the following 10 clues and you will be taken on a mind blowing tour of Leicester culminating in the discovery of hen house treasure.
+            <br/>
+            Fail to solve the clues and you will be left sinking Sour Cherry shots in Revolution!
+            <br/>
+            Remember to receive the full payload of treasure you must have photographic evidence of all solved clues.
+            <br/>
+            Game on!
+          </Text>
 
           { clues.map( (c, i) => i > 0 && clues[i-1].correct || i === 0 ? (
             <div key={ i } style={{ marginBottom: "24px" }}>
