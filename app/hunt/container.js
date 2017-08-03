@@ -50,7 +50,7 @@ export class Hunt extends Component {
           </div>
 
           { clues.map( (c, i) => i > 0 && clues[i-1].correct || i === 0 ? (
-            <div key={ i } style={{ marginBottom: "24px" }}>
+            <div key={ i } style={{ marginBottom: "24px", padding: "0 24px" }}>
               <Text fontWeight={700} lineHeight="25px" textAlign="center" style={{ margin: "0 auto", border: "1px solid", borderRadius: "50%", width: "30px", height: "30px" }}>
                 { i + 1 }
               </Text>
@@ -62,7 +62,7 @@ export class Hunt extends Component {
                 placeholder="Answer goes here!"
                 border="1px solid"
                 borderColor={ c.correct ? "mint" : "pink" }
-                width="90%"
+                width="100%"
                 onChange={ ({ target }) => onSetInput(i, target.value) }
               />
             </div>
