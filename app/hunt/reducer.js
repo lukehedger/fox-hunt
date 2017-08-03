@@ -6,53 +6,53 @@ import * as actions from './actionTypes'
 export const initialState = Immutable.fromJS({
   clues: [
     {
-      clue: 'This is clue number 1',
-      answer: '1',
+      clue: 'Just for starters, no need to go there - name this part of Leicester: 🐸 🇮🇪',
+      answer: 'Frog Island',
       input: '',
     },
     {
-      clue: 'This is clue number 2',
-      answer: '2',
+      clue: 'The statue of Thomas Cook, inventor of the package holiday, can be found outside Leicester Rail Station but what does he have around his neck?',
+      answer: 'Bowtie',
       input: '',
     },
     {
-      clue: 'This is clue number 3',
-      answer: '3',
+      clue: 'You can find The Rutland Dinosaur at the New Walk museum. The question is, what sort of dinosaur is he? (Don\'t forget to get your picture with him!)',
+      answer: 'Cetiosaurus',
       input: '',
     },
     {
-      clue: 'This is clue number 4',
-      answer: '4',
+      clue: 'What sport can you play outside the magazine made of stone?',
+      answer: 'Ping pong',
       input: '',
     },
     {
-      clue: 'This is clue number 5',
-      answer: '5',
+      clue: 'Take Jesus\' mum\'s name, the 4th letter of the alphabet and the surname of Cuba\'s former leader Fidel and you\'ve got the name of a Leicester church. The real question is, which animal is hiding in the bottom left corner of the stained glass window at the back of this church?',
+      answer: 'Lamb',
       input: '',
     },
     {
-      clue: 'This is clue number 6',
-      answer: '6',
+      clue: 'What is the profession of the lady sat outside the City Rooms on Hotel Street?',
+      answer: 'Seamstress',
       input: '',
     },
     {
-      clue: 'This is clue number 7',
-      answer: '7',
+      clue: 'Take yourselves to 24 Granby St. Which flightless bird is having a night on the tiles?',
+      answer: 'Turkey',
       input: '',
     },
     {
-      clue: 'This is clue number 8',
-      answer: '8',
+      clue: 'Head for Holland Park Amusements to see how much the jackpot is worth. (While you\'re there, pop inside and see if you can win a few bob!)',
+      answer: '500',
       input: '',
     },
     {
-      clue: 'This is clue number 9',
+      clue: 'Richard III is buried here but how many statues stand above the entrance to this building?',
       answer: '9',
       input: '',
     },
     {
-      clue: 'This is clue number 10',
-      answer: '10',
+      clue: 'Your final clue! This worldly establishment will serve up a liquid reward but if you get there 2nd your medal will be made of the same metal as the street.',
+      answer: 'The Globe',
       input: '',
     },
   ]
