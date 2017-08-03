@@ -12,7 +12,7 @@ export const initialState = Immutable.fromJS({
     },
     {
       clue: 'The statue of Thomas Cook, inventor of the package holiday, can be found outside Leicester Rail Station but what does he have around his neck?',
-      answer: 'Bowtie',
+      answer: 'Bow tie',
       input: '',
     },
     {
