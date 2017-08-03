@@ -18,6 +18,7 @@ const getCluesChecked = createSelector( [ getClues ], (clues) => {
       {
         ...clue,
         correct: clue.answer.toLowerCase() === clue.input.toLowerCase(),
+        letters: clue.answer.split(' ').map( word => word.length).join(', '),
       },
     ]
   }, [])
