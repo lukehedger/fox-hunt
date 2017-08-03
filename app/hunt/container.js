@@ -54,7 +54,8 @@ export class Hunt extends Component {
               <Text fontWeight={700} lineHeight="25px" textAlign="center" style={{ margin: "0 auto", border: "1px solid", borderRadius: "50%", width: "30px", height: "30px" }}>
                 { i + 1 }
               </Text>
-              <Text textAlign="center" style={{ margin: "8px 0" }}>{ c.clue }</Text>
+              <Text textAlign="center" style={{ margin: "8px 0 0" }}>{ c.clue }</Text>
+              <Text color="foxy" fontSize="14px" textAlign="center" style={{ margin: "0 0 8px" }}>{ c.answer.length } letters</Text>
               <Input
                 value={ c.input }
                 type="text"
