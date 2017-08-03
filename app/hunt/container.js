@@ -36,11 +36,11 @@ export class Hunt extends Component {
           <Text lineHeight="1.2" textAlign="center" style={{ padding: "16px" }}>
             Foxy ladies of Leicester the challenge is set!
             <br/>
-            Correctly solve the following 10 clues and you will be taken on a mind blowing tour of Leicester culminating in the discovery of hen house treasure.
+            You must solve the following 10 clues to beat the opposition to the finish line.
             <br/>
-            Fail to solve the clues and you will be left sinking Sour Cherry shots in Revolution!
+            Fail to solve the clues and you will be left sinking Sour Cherry shots!
             <br/>
-            Remember to receive the full payload of treasure you must have photographic evidence of all solved clues.
+            Remember, true champions must have photographic evidence of all solved clues.
             <br/>
             Game on!
           </Text>
