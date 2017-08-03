@@ -17,7 +17,7 @@ const getCluesChecked = createSelector( [ getClues ], (clues) => {
       ...arr,
       {
         ...clue,
-        correct: clue.answer === clue.input,
+        correct: clue.answer.toLowerCase() === clue.input.toLowerCase(),
       },
     ]
   }, [])
